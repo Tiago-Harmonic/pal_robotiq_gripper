@@ -2,8 +2,8 @@
 Changelog for package pal_robotiq_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.3 (2024-05-06)
+------------------
 * Merge branch 'fix/mimic_multiplier' into 'humble-devel'
   fix ros2 control multiplier
   See merge request robots/pal_robotiq_gripper!24
