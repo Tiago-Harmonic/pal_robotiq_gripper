@@ -55,7 +55,7 @@ limitations under the License.
 
     <xacro:ros2_control_mimic_joint mimic_joint_name="${name}_left_inner_knuckle_joint" 
                                     actuated_joint_name="${name}_finger_joint" 
-                                    multiplier="1"/>
+                                    multiplier="-1"/>
 
     <xacro:ros2_control_mimic_joint mimic_joint_name="${name}_left_outer_knuckle_joint" 
                                     actuated_joint_name="${name}_finger_joint" 
@@ -78,23 +78,23 @@ limitations under the License.
 
     <xacro:ros2_control_mimic_joint mimic_joint_name="${name}_right_outer_knuckle_joint" 
                                     actuated_joint_name="${name}_finger_joint" 
-                                    multiplier="1"/>
+                                    multiplier="-1"/>
 
     <xacro:ros2_control_mimic_joint mimic_joint_name="${name}_right_inner_knuckle_joint" 
                                     actuated_joint_name="${name}_finger_joint" 
-                                    multiplier="1"/>
+                                    multiplier="-1"/>
 
     <xacro:ros2_control_mimic_joint mimic_joint_name="${name}_right_inner_finger_joint" 
                                     actuated_joint_name="${name}_finger_joint" 
-                                    multiplier="-1"/>
+                                    multiplier="1"/>
 
     <xacro:ros2_control_mimic_joint mimic_joint_name="${name}_left_inner_finger_joint" 
                                     actuated_joint_name="${name}_finger_joint" 
-                                    multiplier="-1"/>
+                                    multiplier="1"/>
 
     <xacro:ros2_control_mimic_joint mimic_joint_name="${name}_left_inner_knuckle_joint" 
                                     actuated_joint_name="${name}_finger_joint" 
-                                    multiplier="1"/>
+                                    multiplier="-1"/>
 
     <xacro:ros2_control_mimic_joint mimic_joint_name="${name}_left_outer_knuckle_joint" 
                                     actuated_joint_name="${name}_finger_joint" 
