@@ -33,7 +33,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://pal_robotiq_description/meshes/visual/robotiq_${stroke}_outer_knuckle.stl" />
+          <mesh filename="file://$(find pal_robotiq_description)/meshes/visual/robotiq_${stroke}_outer_knuckle.stl" />
         </geometry>
         <material name="">
           <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
@@ -42,7 +42,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://pal_robotiq_description/meshes/collision/robotiq_${stroke}_outer_knuckle.stl" />
+          <mesh filename="file://$(find pal_robotiq_description)/meshes/collision/robotiq_${stroke}_outer_knuckle.stl" />
         </geometry>
       </collision>
     </link>
@@ -60,7 +60,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://pal_robotiq_description/meshes/visual/robotiq_${stroke}_outer_finger.stl" />
+          <mesh filename="file://$(find pal_robotiq_description)/meshes/visual/robotiq_${stroke}_outer_finger.stl" />
         </geometry>
         <material name="">
           <color rgba="0.1 0.1 0.1 1" />
@@ -69,7 +69,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://pal_robotiq_description/meshes/collision/robotiq_${stroke}_outer_finger.stl" />
+          <mesh filename="file://$(find pal_robotiq_description)/meshes/collision/robotiq_${stroke}_outer_finger.stl" />
         </geometry>
       </collision>
     </link>
@@ -90,7 +90,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://pal_robotiq_description/meshes/visual/robotiq_${stroke}_inner_knuckle.stl" />
+          <mesh filename="file://$(find pal_robotiq_description)/meshes/visual/robotiq_${stroke}_inner_knuckle.stl" />
         </geometry>
         <material name="">
           <color rgba="0.1 0.1 0.1 1" />
@@ -99,7 +99,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://pal_robotiq_description/meshes/collision/robotiq_${stroke}_inner_knuckle.stl" />
+          <mesh filename="file://$(find pal_robotiq_description)/meshes/collision/robotiq_${stroke}_inner_knuckle.stl" />
         </geometry>
       </collision>
     </link>
@@ -127,7 +127,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://pal_robotiq_description/meshes/visual/robotiq_${stroke}_inner_finger.stl" />
+          <mesh filename="file://$(find pal_robotiq_description)/meshes/visual/robotiq_${stroke}_inner_finger.stl" />
         </geometry>
         <material name="">
           <color rgba="0.1 0.1 0.1 1" />
@@ -136,7 +136,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://pal_robotiq_description/meshes/collision/robotiq_${stroke}_inner_finger.stl" />
+          <mesh filename="file://$(find pal_robotiq_description)/meshes/collision/robotiq_${stroke}_inner_finger.stl" />
         </geometry>
       </collision>
     </link>
@@ -243,7 +243,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://pal_robotiq_description/meshes/visual/robotiq_base_link.stl" />
+          <mesh filename="file://$(find pal_robotiq_description)/meshes/visual/robotiq_base_link.stl" />
         </geometry>
         <material name="">
           <color rgba="0.1 0.1 0.1 1" />
@@ -252,7 +252,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://pal_robotiq_description/meshes/collision/robotiq_base_link.stl" />
+          <mesh filename="file://$(find pal_robotiq_description)/meshes/collision/robotiq_base_link.stl" />
         </geometry>
       </collision>
     </link>
@@ -266,7 +266,7 @@
       <visual>
           <origin xyz="0 0 0.0" rpy="3.1416 0 0" />
           <geometry>
-              <mesh filename="package://pal_robotiq_description/meshes/visual/pal_robotiq_coupling.stl"/>
+              <mesh filename="file://$(find pal_robotiq_description)/meshes/visual/pal_robotiq_coupling.stl"/>
           </geometry>
           <material name="">
             <color rgba="0 0 0 1"/>
@@ -275,7 +275,7 @@
       <collision>
           <origin xyz="0 0 0.0" rpy="3.1416 0 0" />
           <geometry>
-              <mesh filename="package://pal_robotiq_description/meshes/visual/pal_robotiq_coupling.stl"/>
+              <mesh filename="file://$(find pal_robotiq_description)/meshes/visual/pal_robotiq_coupling.stl"/>
           </geometry>
       </collision>
       <inertial>
